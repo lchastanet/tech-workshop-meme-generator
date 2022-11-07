@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wild Meme Generator</title>
+  </head>
+  <body>
+    <h1>Wild meme generator</h1>
+    <main>
+      <form action="#">
+        <input type="file" name="picture-selector" id="picture-selector" />
+        <div id="meme">
+          <div id="picture"></div>
+          <p id="meme-text"></p>
+        </div>
+        <input type="text" name="meme-input" id="meme-input" />
+        <input type="button" value="Imprimer !" id="print-button" />
+      </form>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

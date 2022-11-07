@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f76c6c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Varela Round", Courier, monospace;
+  color: #fff;
+  font-size: 3rem;
+  margin: 2rem;
+  user-select: none;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#meme {
+  height: 350px;
+  width: 500px;
+  margin-top: 1rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#meme-text {
+  position: absolute;
+  width: 90%;
+  height: 2rem;
+  bottom: 3rem;
+  left: 1rem;
+  font-size: 2rem;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  overflow-wrap: break-word;
+}
+
+#meme-input {
+  all: unset;
+  border: solid lightgray 1px;
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  width: 70%;
+  transition: 300ms all ease-in-out;
+}
+
+#meme-input:focus {
+  box-shadow: inset 0px 0px 0px 2px lightblue;
+}
+
+#print-button {
+  all: unset;
+  padding: 1rem 2rem;
+  font-family: "Varela Round", Courier, monospace;
+  background-color: lightgray;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 300ms all ease-in-out;
+}
+
+#print-button:hover {
+  transform: scale(1.1);
+}
