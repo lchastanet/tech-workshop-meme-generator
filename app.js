@@ -1,5 +1,4 @@
 const pictureSelector = document.querySelector("#picture-selector");
-const picture = document.querySelector("#picture");
 const memeInput = document.querySelector("#meme-input");
 const memeText = document.querySelector("#meme-text");
 const printButton = document.querySelector("#print-button");
